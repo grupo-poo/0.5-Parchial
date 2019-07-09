@@ -34,5 +34,6 @@ public class Hilo1 extends Thread{
         this.tortuga.forward(50);
         this.tortuga.left(135);
         this.tortuga.forward(70);
+        //om
     }
 }
