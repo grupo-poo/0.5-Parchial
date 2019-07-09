@@ -16,16 +16,19 @@ public class Hilo2 extends Thread{
     }
     
     public void run(){
-        this.tortuga.setPos(200,200);
+        this.tortuga.setPos(150,167);
         this.tortuga.left(135);
-        this.tortuga.forward(150);
+        this.tortuga.forward(100);
         this.tortuga.right(90);
-        this.tortuga.forward(150);
+        this.tortuga.forward(100);
         this.tortuga.left(90);
-        this.tortuga.forward(150);
+        this.tortuga.forward(100);
         this.tortuga.left(135);
-        this.tortuga.forward(200);
-        
+        this.tortuga.forward(140);
+        this.tortuga.left(45);
+        this.tortuga.forward(100);
+        this.tortuga.left(135);
+        this.tortuga.forward(140);
         
       
     }
