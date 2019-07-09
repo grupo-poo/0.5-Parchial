@@ -32,7 +32,7 @@ public class EscenarioTortugas extends TurtleFrame{
     
     public void iniciar(){
        HiloBase hilo = new HiloBase(tortuga1);
-       Hilo2 hilo2=new Hilo2(tortuga2);
+       HiloGrande hilo2=new HiloGrande(tortuga2);
        hilo2.start();
       
     }
